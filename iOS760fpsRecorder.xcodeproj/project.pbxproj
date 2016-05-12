@@ -200,6 +200,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Ruotsalainen Werner";
 				TargetAttributes = {
+					366301C017788C8E002A8A9B = {
+						DevelopmentTeam = 7J77685L3X;
+					};
 					366301E117788C8E002A8A9B = {
 						TestTargetID = 366301C017788C8E002A8A9B;
 					};
@@ -375,11 +378,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS760fpsRecorder/iOS760fpsRecorder-Prefix.pch";
 				INFOPLIST_FILE = "iOS760fpsRecorder/iOS760fpsRecorder-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8A12E225-2CE1-4B41-9C58-CCBEE38D7DA9";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,11 +394,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS760fpsRecorder/iOS760fpsRecorder-Prefix.pch";
 				INFOPLIST_FILE = "iOS760fpsRecorder/iOS760fpsRecorder-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8A12E225-2CE1-4B41-9C58-CCBEE38D7DA9";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

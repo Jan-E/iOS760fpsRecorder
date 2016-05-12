@@ -385,6 +385,7 @@
 				INFOPLIST_FILE = "iOS760fpsRecorder/iOS760fpsRecorder-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -401,6 +402,7 @@
 				INFOPLIST_FILE = "iOS760fpsRecorder/iOS760fpsRecorder-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
